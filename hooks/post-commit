@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if git ls-remote mirror; then
+  git push --mirror mirror
+fi
